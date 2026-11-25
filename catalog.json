@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "plugins",
-  "updated_at": "2026-11-25T20:33:16Z",
+  "updated_at": "2026-11-25T22:29:35Z",
   "apps": [
     {
       "id": "by-capture-hub",
@@ -190,6 +190,54 @@
       "path": "packages/by-minimal-clock.byt",
       "permissions": [],
       "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-minimal-clock.byt"
+    },
+    {
+      "id": "by-dock-power",
+      "title": "Energia na Dock",
+      "version": "1.0.0",
+      "kind": "plugin",
+      "slot": "dockbar",
+      "icon": "icons/by-dock-power.svg",
+      "min_byos_version": "2026.12.1",
+      "max_byos_version": null,
+      "author": "byOS Project",
+      "publisher_github": "Diegopam",
+      "category": "Plugins",
+      "summary": "Capsule pill com 3 botões rápidos na Dockbar (Desligar, Reiniciar e Encerrar Sessão) e tooltips individuais",
+      "format": "BYOSPKG2",
+      "sha256": "9534dd85ff8be6c97ca99f417421f58c7bdf45d2989a84a3989a27ad1f5b9087",
+      "size_bytes": 1805,
+      "path": "packages/by-dock-power.byt",
+      "permissions": [
+        "sys.power",
+        "ui.toast"
+      ],
+      "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-dock-power.byt"
+    },
+    {
+      "id": "by-dock-trash",
+      "title": "Lixeira",
+      "version": "1.0.0",
+      "kind": "plugin",
+      "slot": "dockbar",
+      "icon": "icons/by-dock-trash.svg",
+      "min_byos_version": "2026.12.1",
+      "max_byos_version": null,
+      "author": "byOS Project",
+      "publisher_github": "Diegopam",
+      "category": "Plugins",
+      "summary": "Lixeira inteligente na Dockbar: arraste apps fixados para desafixar ou arquivos do byFinder para enviar à lixeira",
+      "format": "BYOSPKG2",
+      "sha256": "c4fad94cadfd5762d335cc2bddfcc41af90b35e23a02a8ce8126449b9267a462",
+      "size_bytes": 3056,
+      "path": "packages/by-dock-trash.byt",
+      "permissions": [
+        "apps.launch",
+        "fs.read",
+        "fs.write",
+        "ui.toast"
+      ],
+      "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-dock-trash.byt"
     }
   ]
 }
