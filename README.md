@@ -21,3 +21,8 @@ Repositório público de plugins nativos (`.byt` / `kind: plugin`) para a **bySt
 | `by-minimal-clock` | Relogio Minimal | `v1.0.0` | `>= 2026.11` | `desktop` | `packages/by-minimal-clock.byt` (1503 B) |
 | `by-dock-power` | Energia na Dock | `v1.0.0` | `>= 2026.12.1` | `dockbar` | `packages/by-dock-power.byt` (1805 B) |
 | `by-dock-trash` | Lixeira | `v1.0.0` | `>= 2026.12.1` | `dockbar` | `packages/by-dock-trash.byt` (3056 B) |
+| `by-dock-workspaces` | Áreas ao Vivo | `v1.0.0` | `>= 2026.12.1` | `dockbar` | `packages/by-dock-workspaces.byt` (1732 B) |
+| `by-dock-terminal` | Mini Terminal | `v1.0.0` | `>= 2026.12.1` | `dockbar` | `packages/by-dock-terminal.byt` (1440 B) |
+| `by-dock-color` | Color Studio | `v1.0.0` | `>= 2026.12.1` | `dockbar` | `packages/by-dock-color.byt` (2588 B) |
+| `by-dock-calc` | Calc & Conversor | `v1.0.0` | `>= 2026.12.1` | `dockbar` | `packages/by-dock-calc.byt` (3588 B) |
+| `by-dock-lens` | Lupa & Régua | `v1.0.0` | `>= 2026.12.1` | `dockbar` | `packages/by-dock-lens.byt` (2085 B) |

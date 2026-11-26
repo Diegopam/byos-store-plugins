@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "plugins",
-  "updated_at": "2026-11-25T22:29:35Z",
+  "updated_at": "2026-11-26T01:40:48Z",
   "apps": [
     {
       "id": "by-capture-hub",
@@ -238,6 +238,122 @@
         "ui.toast"
       ],
       "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-dock-trash.byt"
+    },
+    {
+      "id": "by-dock-workspaces",
+      "title": "Áreas ao Vivo",
+      "version": "1.0.0",
+      "kind": "plugin",
+      "slot": "dockbar",
+      "icon": "icons/by-dock-workspaces.svg",
+      "min_byos_version": "2026.12.1",
+      "max_byos_version": null,
+      "author": "byOS Project",
+      "publisher_github": "Diegopam",
+      "category": "Plugins",
+      "summary": "Visualizador ao vivo 2x2 das 4 áreas de trabalho virtuais ao passar o mouse na Dockbar",
+      "format": "BYOSPKG2",
+      "sha256": "6d115720a06a7fe92932b5404ffe1251a29971daea8c0da037af587b18bd9d11",
+      "size_bytes": 1732,
+      "path": "packages/by-dock-workspaces.byt",
+      "permissions": [
+        "ui.toast"
+      ],
+      "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-dock-workspaces.byt"
+    },
+    {
+      "id": "by-dock-terminal",
+      "title": "Mini Terminal",
+      "version": "1.0.0",
+      "kind": "plugin",
+      "slot": "dockbar",
+      "icon": "icons/by-dock-terminal.svg",
+      "min_byos_version": "2026.12.1",
+      "max_byos_version": null,
+      "author": "byOS Project",
+      "publisher_github": "Diegopam",
+      "category": "Plugins",
+      "summary": "Mini Terminal Quake interativo com shell PTY real e atalhos rápidos em popover na Dockbar",
+      "format": "BYOSPKG2",
+      "sha256": "a18908efb06b73dce3779c213248eb5ee78ed25134dedadaab7a27b583bbd7d0",
+      "size_bytes": 1440,
+      "path": "packages/by-dock-terminal.byt",
+      "permissions": [
+        "system.exec",
+        "apps.launch"
+      ],
+      "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-dock-terminal.byt"
+    },
+    {
+      "id": "by-dock-color",
+      "title": "Color Studio",
+      "version": "1.0.0",
+      "kind": "plugin",
+      "slot": "dockbar",
+      "icon": "icons/by-dock-color.svg",
+      "min_byos_version": "2026.12.1",
+      "max_byos_version": null,
+      "author": "byOS Project",
+      "publisher_github": "Diegopam",
+      "category": "Plugins",
+      "summary": "Seletor de cores criativo com Conta-Gotas de tela (lupa 11x11 px), paleta ao vivo e histórico de swatches",
+      "format": "BYOSPKG2",
+      "sha256": "313753d131fc48ed9388e7ec1d168ab856bce5e2de532b2fa9c0c2b5777f2b50",
+      "size_bytes": 2588,
+      "path": "packages/by-dock-color.byt",
+      "permissions": [
+        "sys.capture",
+        "sys.clipboard",
+        "ui.toast"
+      ],
+      "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-dock-color.byt"
+    },
+    {
+      "id": "by-dock-calc",
+      "title": "Calc & Conversor",
+      "version": "1.0.0",
+      "kind": "plugin",
+      "slot": "dockbar",
+      "icon": "icons/by-dock-calc.svg",
+      "min_byos_version": "2026.12.1",
+      "max_byos_version": null,
+      "author": "byOS Project",
+      "publisher_github": "Diegopam",
+      "category": "Plugins",
+      "summary": "Calculadora instantânea ao passar o mouse na Dockbar com teclado físico e conversor rápido",
+      "format": "BYOSPKG2",
+      "sha256": "9c370c40e68bdcb1b5c028ff39dc8b08d586daa7743d02191091dca78bbb2481",
+      "size_bytes": 3588,
+      "path": "packages/by-dock-calc.byt",
+      "permissions": [
+        "sys.clipboard",
+        "ui.toast"
+      ],
+      "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-dock-calc.byt"
+    },
+    {
+      "id": "by-dock-lens",
+      "title": "Lupa & Régua",
+      "version": "1.0.0",
+      "kind": "plugin",
+      "slot": "dockbar",
+      "icon": "icons/by-dock-lens.svg",
+      "min_byos_version": "2026.12.1",
+      "max_byos_version": null,
+      "author": "byOS Project",
+      "publisher_github": "Diegopam",
+      "category": "Plugins",
+      "summary": "Lupa circular GPU em tempo real, Régua de Pixels com cópia WxH e Conta-Gotas rápido na Dockbar",
+      "format": "BYOSPKG2",
+      "sha256": "f91858f89bcaf366faaf16c41dba5f161ce3104ae3dd864c85dfed8c3a4647df",
+      "size_bytes": 2085,
+      "path": "packages/by-dock-lens.byt",
+      "permissions": [
+        "sys.capture",
+        "sys.clipboard",
+        "ui.toast"
+      ],
+      "download_url": "https://raw.githubusercontent.com/Diegopam/byos-store-plugins/main/packages/by-dock-lens.byt"
     }
   ]
 }

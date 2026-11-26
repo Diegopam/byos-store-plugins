@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="lglass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#lbg)"/>
+  <circle cx="28" cy="28" r="14" fill="url(#lglass)" stroke="#38bdf8" stroke-width="3.2"/>
+  <line x1="38" y1="38" x2="50" y2="50" stroke="#e2e8f0" stroke-width="4.2" stroke-linecap="round"/>
+  <line x1="22" y1="28" x2="34" y2="28" stroke="#bae6fd" stroke-width="2" stroke-linecap="round"/>
+  <line x1="28" y1="22" x2="28" y2="34" stroke="#bae6fd" stroke-width="2" stroke-linecap="round"/>
+</svg>
